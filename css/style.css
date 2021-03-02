@@ -1,0 +1,21 @@
+body {
+	margin: 0%;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	background: rgb(64,64,64);
+}
+
+
+.title{
+	text-align: right;
+	padding-right: 5%;
+	margin-top: 10%;
+	margin-right: 15%;
+}
+.buttons{
+	text-align: center;
+	margin: 10%;
+}
+.btn{
+	border:0px;
+}
