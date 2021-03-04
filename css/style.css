@@ -5,7 +5,6 @@ body {
 	background: rgb(64,64,64);
 }
 
-
 .title{
 	text-align: right;
 	padding-right: 5%;
@@ -26,3 +25,30 @@ body {
 .main-btn{
 	border: 0px;
 }	
+.input-container {
+	margin-top: 5%;
+	margin-bottom:5%;
+	padding: 1%;
+}
+.command-container{
+	padding: 1%;
+}
+.dropbtn{
+	cursor: pointer;
+}
+
+.dropdown-content{
+	display: none;
+	z-index: 1;
+	box-shadow: 0px 8px 16px 0px;
+	width: 20%;
+	background-color: white;
+	padding-left:1%; 
+}
+.dropdown-content a{
+	text-decoration: none;
+	display:block;
+}
+.show{
+	display: block;
+}
