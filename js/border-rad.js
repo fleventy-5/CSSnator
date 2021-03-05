@@ -2,7 +2,7 @@ export function borderRad(){
 	document.querySelector('.input-container').insertAdjacentHTML("afterbegin",
 		"<p><input type='text' class = 'input' id = 'top-l' placeholder='Top left corner'><input type='text' class = 'input' id = 'top-r' placeholder='Top right corner'><input type='text' class = 'input' id = 'bot-l' placeholder='Bottom left corner'><input type='text' class = 'input' id = 'bot-r' placeholder='Bottom right corner'></p>");
 	
-	document.querySelector('.output-container').insertAdjacentHTML("afterbegin","<p id = 'box'></p><p><input type='text' id = 'cpytxt'><select id ='opt'><option  value = 'px' selected>px</option><option value = '%' >%</option></select></p><button id = 'copy'>COPY</button>");
+	document.querySelector('.output-container').insertAdjacentHTML("afterbegin","<p id = 'box'></p><p><input type='text' id = 'cpytxt'><select id ='bordR'><option  value = 'px' selected>px</option><option value = '%' >%</option></select></p><button id = 'copy'>COPY</button>");
 
 
 
@@ -11,7 +11,7 @@ export function borderRad(){
 	let borderTR = 10;
 	let borderBL = 10;
 	let borderBR = 10;
-	let size = document.getElementById('opt').value;
+	let size = document.getElementById('bordR').value;
 	document.getElementById('cpytxt').value = " border-radius: "+borderTL+size+" "+borderTR+size+" "+borderBL+size+" "+borderBR+size+" ;";
 
 	let box = document.getElementById('box');
@@ -25,7 +25,7 @@ export function borderRad(){
 		document.execCommand("copy");
 	});
 
-	let sel = document.getElementById('opt');
+	let sel = document.getElementById('bordR');
 
 	sel.addEventListener('change',function(){
 		size = sel.value;
