@@ -52,3 +52,25 @@ body {
 .show{
 	display: block;
 }
+
+
+
+
+.input-container{
+	text-align: center;
+	padding-top: 10%;
+}
+.input-container{
+	text-align: center;
+	padding-top: 10%;
+}
+/*Start of all the modules styles*/
+#box{
+	background: grey;
+	width:250px;
+	height:250px;
+	display:inline-block;
+}
+.input{
+	width:200px;
+}
