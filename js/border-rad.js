@@ -1,6 +1,4 @@
 export function borderRad(){
-	document.getElementById('one').remove();
-	document.getElementById('two').remove();
 	document.querySelector('.input-container').insertAdjacentHTML("afterbegin",
 		"<div id='one'><p><input type='text' class = 'input' id = 'top-l' placeholder='Top left corner'><input type='text' class = 'input' id = 'top-r' placeholder='Top right corner'><input type='text' class = 'input' id = 'bot-l' placeholder='Bottom left corner'><input type='text' class = 'input' id = 'bot-r' placeholder='Bottom right corner'></p></div>");
 	
